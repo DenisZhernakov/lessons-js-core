@@ -31,7 +31,13 @@ html {
 	border: 30px solid #ffffff;
 	width: 350px;
 	height: 350px;
+	transition: transform 20s;
 		
+}
+
+.avatar__picture:hover {
+	transform: rotateZ(180deg);
+  transition: transform 20s ease;
 }
 .contacts {
 	/* добавьте ваш код  */

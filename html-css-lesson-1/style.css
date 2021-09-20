@@ -31,16 +31,20 @@ html {
 	border: 30px solid #ffffff;
 	width: 350px;
 	height: 350px;
+
 	transition: transform 3s;
-		
+	
 }
 
 .avatar__picture:hover {
-	transform: rotateZ(180deg);
+	/* transform: rotateZ(180deg);
+  transition: transform 3s ease; */
+
+	transform: translateX(100%) rotate(360deg);
   transition: transform 3s ease;
 }
 .contacts {
-	/* добавьте ваш код  */
+	
 }
 .contacts__name {
 	font-size: 32px;
@@ -63,7 +67,7 @@ html {
 
 }
 .contacts__title:after {
-	/* добавьте ваш код  */
+	
 }
 .contacts__link {
 	color: #868686;
